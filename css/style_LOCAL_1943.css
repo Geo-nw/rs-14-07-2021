@@ -94,11 +94,6 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
-=======
-  height: 200px;
-  background: #030303;
->>>>>>> 6aa3ec5f9ad21b49e9e6f302ca0c4044b4fd2f03
 }
 .logo_pic{
   background: url(../assets/svg/logo.svg) no-repeat;
