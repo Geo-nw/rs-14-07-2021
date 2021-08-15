@@ -69,7 +69,6 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1920px;
   height: 200px;
   background: #030303;
 }
