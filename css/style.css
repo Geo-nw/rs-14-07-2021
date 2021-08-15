@@ -63,71 +63,69 @@ html{
   max-width: 1440px;
   margin: 0 auto;
 }
+.header,
+.footer,
+.section_colored{
+  background: #030303;
+}
+.section{
+  padding: 75px 0;
+}
+.section_title{
+  font-family: "Forum", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+.section_title_colored{
+  color: #9D8665;
+}
 
 /* header start */
 .header{
+  padding-top: 74px;
+  padding-bottom: 76px;
+}
+.header_content{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1920px;
-  height: 200px;
-  background: #030303;
 }
 .logo_pic{
-  background: url(/assets/svg/logo.svg) no-repeat;
-  display: flex;
-  flex-wrap: wrap;
-  float: left;
-  margin-left: auto;
-  margin-right: 0;
-  width: 49px;
+  background: url(../assets/svg/logo.svg) no-repeat;
+  width: 48px;
   height: 26px;
-  margin-right: 21px;
-  margin-top: 8px;
-  right: 2%;
-  top: 83px;
-  color: white;
 }
 .logo_text{
-  display: flex;
-  flex-wrap: wrap;
-  left: 310px;
-  top: 74px;
-
-  font-family: Forum;
+  font-family: "Forum", serif;
   font-style: normal;
   font-weight: 100;
   font-size: 28px;
-  line-height: 50px;
+/*  line-height: 50px; */
   letter-spacing: 5px;
+  text-decoration: none;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 .logo_conteiner{
   display: flex;
-  width: 195px;
-  height: 50px;
-  padding-top: 74px;
-  float: left;
-  margin-left: 240px;
+  align-items: baseline;
+  column-gap: 21px;
 }
-.link_logo_conteiner:hover{
+.logo_text:hover{
   filter: invert(61%) sepia(10%) saturate(1166%) hue-rotate(356deg) brightness(87%) contrast(87%);
   transition: 1s;
-  text-decoration: none;
 }
 .header_nav{
-  padding-top: 75px;
-  padding-left: 525px;
-  width: 720px;
+
 }
 .header_list{
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  width: 720px;
-  margin-left: 436px;
-  margin-bottom: 76px;
 }
 .header_item{
   margin-right: 74px;
@@ -153,19 +151,14 @@ html{
 /* header end */
 
 /* welcomе start */
-.welcome_bg_pic{
-  background: url('/assets/img/welcome.jpg') no-repeat;
-  height: 750px;
-  width: 1215px;
-  margin-left: 705px;
+.welcome{
+  background-image: url(/assets/img/welcome.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 352px);
 }
 .welcome_block{
-  padding-top: 114px;
-  margin-left: 240px;
   width: 598px;
   height: 390px;
-  left: 0px;
-  top: 0px;
 }
 .section-title_welcome{
   width: 598px;
@@ -179,18 +172,10 @@ html{
   text-transform: uppercase;
   color:white;
 }
-h2{
-  width: 380px;
-  height: 90px;
-  font-family: Forum;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
-  line-height: 90px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  color:white;
+h1{
+  text-decoration: none;
 }
+
 h3{
   position: relative;
   top: 26px;
@@ -205,11 +190,8 @@ h3{
   color: #FFFFFF;
 }
 .welcome_bg{
-  width: 705px;
-  height: 750px;
-  background: #030303;
-  border-radius: 0px;
-  float: left;
+  padding-top: 114px;
+  padding-bottom: 246px;
 }
 .discover_the_louvre{
   position: relative;
@@ -241,29 +223,8 @@ h3{
 /* welcomе end */
 
 /*visiting start*/
-.conteiner_virtual_tour{
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  width: 1440px;
-  height: 193px;
-  left: 0px;
-  margin-left: 240px;
-}
+
 .virtual_tour_text{
-  width: 606px;
-  height: 90px;
-  left: 0px;
-  margin-top: 75px;
-
-
-  font-family: Forum;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 80px;
-  line-height: 90px;
-  letter-spacing: 5px;
-  text-transform: uppercase;
   color: #9D8665;
 }
 .virtual_tour_line{
