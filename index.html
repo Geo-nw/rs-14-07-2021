@@ -107,15 +107,14 @@
                 <div class="line"></div>
                 <h5 class="card_text_2">360° Virtual Tour</h5>
                 <h5 class="card_text_3">Google Street Panorama View</h5>
-
             </a>
           </div>
         </div>
       </section>
 
-      <section class="section" id="explore">
-        <div class="bg_black">
-          <div class="conteiner_picture_explore">
+      <section class="section section_colored" id="explore">
+        <div class="conteiner">
+          <div class="conteiner_picture_explore picture_explore">
             <h2 class="section_title">Picture explore</h2>
               <div class="picture_explore_line"></div>
               <div class="explore_title">
@@ -125,40 +124,41 @@
                 of dust that had gathered since the previous restoration in the 19th century.</h5>
                 <h5 class="picture_explore_title">The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</h5>
               </div>
-            <img src="/assets/img/Rectangle.jpg" alt="Rectangle" class="pic_rectagle">
           </div>
         </div>
       </section>
 
-      <section class="section" id="video">
-        <div class="bg_wite">
+      <section class="section section_colored_white" id="video">
+        <div class="conteiner">
           <div class="frame">
             <div class="butt_play">
-              <img src="/assets/img/pl.png" alt="" class="pl">
-              <img src="/assets/img/O.png" alt="" class="o">
+              <img  src="/assets/img/O.png" alt="" class="pl">
+
             </div>
             <div class="panel">
-              <button class="left"></button>
-              <button class="play"></button>
-              <button class="right"></button>
-              <button class="sound"></button>
-              <button class="expansion"></button>
-              <div class="">
+              <div class="left"></div>
+              <div class="play"></div>
+              <div class="right"></div>
+              <span>
                 <input type="range" value="25" min="0" max="100" step="1" class="change_fr">
-              </div>
-              <div class="">
+              </span>
+              <div class="sound"></div>
+              <span>
                 <input type="range" value="25" min="0" max="100" step="1" class="change_sound">
-              </div>
+              </span>
+              <div class="expansion"></div>
             </div>
           </div>
-          <h2 class="section_title_colored section_title">Video journey</h2>
-          <h5 class="video_journey_text_1">Enter and visit one of the most famous museums in the world
-            and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</h5>
+          <div class="vid_jour_text_block">
+            <h2 class="section_title_colored section_title">Video journey</h2>
+            <h5 class="video_journey_text_1">Enter and visit one of the most famous museums in the world
+              and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</h5>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="tickets">
-        <div class="bg_black_tickets">
+      <section class="section section_colored" id="tickets">
+        <div class="conteiner">
           <div class="tickets">
             <h2 class="section_title">Buy tickets</h2>
             <div class="tickets_line"></div>
@@ -207,65 +207,69 @@
         </div>
       </section>
 
-      <section class="section" id="contacts">
-        <div class="bg_wite_contact">
-          <div class="contact">
+      <section class="section section_colored_white" id="contacts">
+          <div class="conteiner">
             <h2 class="section_title section_title_colored">Contacts</h2>
             <div class="contact_line"></div>
+            <div class="map conteiner_adress_map">
+
               <div class="adress">
                 <div class="musee">
-                  <h3 class="musee_text">Palais Royal Musee du Louvre</h3>
+                  <h3 style="top: 0" class="musee_text">Palais Royal Musee du Louvre</h3=>
                 </div>
                   <h4 class="musee_adress"> address: 75001 Paris, France</h4>
-                  <h4 class="musee_adress_1"> phone: +33(0) 1 40 20 50 50</h4>
-                  <h4 class="musee_adress_2"> mail: info@louvre.fr</h4>
+                  <h4 class="musee_adress"> phone: +33(0) 1 40 20 50 50</h4>
+                  <h4 class="musee_adress"> mail: info@louvre.fr</h4>
               </div>
-              <div class="map"></div>
+            </div>
           </div>
-        </div>
       </section>
   </main>
+
   <footer class="footer">
-<!--    <section class="foote" id="footer"> -->
-      <div class="bg_footer">
-        <div class="control_footer">
-          <a href="#" class="link_logo_conteiner_footer">
-            <div class="link_logo_conteiner_footer">
-              <div class="logo_pic_footer"></div>
-              <h2 class="logo_text_footer">Louvre</h2>
-           </div>
-          </a>
-          <nav class="header_nav_footer">
-            <ul class="header_list">
-              <li class="header_item">
-                <a href="#welcome" class="header_link">Welcome</a>
-              </li>
-              <li class="header_item_footer_video">
-                <a href="#video" class="header_link">Video</a>
-              </li>
-              <li class="header_item">
-                <a href="#visiting" class="header_link">Visiting</a>
-              </li>
-              <li class="header_item_footer_tickets">
-                <a href="#tickets" class="header_link">Tickets</a>
-              </li>
-              <li class="header_item">
-                <a href="#explore" class="header_link">Explore</a>
-              </li>
-              <li class="header_item_footer_contacts">
-                <a href="#contacts" class="header_link">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="social_network">
-            <a href="#" class="youtube"></a>
-            <a href="#" class="insta"></a>
-            <a href="#" class="f_b"></a>
-            <a href="#" class="tw"></a>
-            <a href="#" class="pinterest"></a>
-          </div>
-        </div>
+    <div class="conteiner conteiner_footer">
+      <div class="logo_conteiner_footer">
+        <div class="logo_pic_footer"></div>
+          <h2 class="logo_text_footer">Louvre</h2>
       </div>
+            <nav class="nav_footer_block">
+              <div class="nav_footer_1">
+                <ul class="header_list_1">
+                  <li>
+                    <a href="#welcome" class="header_link">Welcome</a>
+                  </li>
+                  <li>
+                    <a href="#visiting" class="header_link">Visiting</a>
+                  </lis=>
+                  <li>
+                    <a href="#explore" class="header_link">Explore</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="nav_footer_2">
+                <ul class="header_list_2">
+                  <li>
+                    <a href="#video" class="header_link">Video</a>
+                  </li>
+                  <li>
+                    <a href="#tickets" class="header_link">Tickets</a>
+                  </li>
+                  <li>
+                    <a href="#contacts" class="header_link">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+
+            </nav>
+              <div class="social_network">
+                <a href="#" class="youtube"></a>
+                <a href="#" class="insta"></a>
+                <a href="#" class="f_b"></a>
+                <a href="#" class="tw"></a>
+                <a href="#" class="pinterest"></a>
+              </div>
+    </div>
   </footer>
 </body>
 </html>
