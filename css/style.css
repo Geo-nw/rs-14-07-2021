@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('/assets/fonts/forum-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/forum-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/forum-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/forum-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* roboto-300 - latin */
@@ -14,8 +14,8 @@
   font-style: normal;
   font-weight: 300;
   src: local(''),
-       url('/assets/fonts/roboto-v27-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-v27-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/roboto-v27-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v27-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-regular - latin */
 @font-face {
@@ -23,8 +23,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('/assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-900 - latin */
 @font-face {
@@ -32,8 +32,8 @@
   font-style: normal;
   font-weight: 900;
   src: local(''),
-       url('/assets/fonts/roboto-v27-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-v27-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/roboto-v27-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v27-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-regular - latin */
 @font-face {
@@ -41,8 +41,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('/assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-500 - latin */
 @font-face {
@@ -50,8 +50,8 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-       url('/assets/fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/roboto-v27-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../assets/fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../assets/fonts/roboto-v27-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -157,7 +157,7 @@ html{
 
 /* welcomе start */
 .welcome{
-  background-image: url(/assets/img/welcome.jpg);
+  background-image: url(../assets/img/welcome.jpg);
   background-repeat: no-repeat;
   background-position: calc(50% + 352px);
 }
@@ -296,7 +296,7 @@ h3{
   background: black;
 }
 .picture_explore{
-  background-image: url(/assets/img/Rectangle.jpg);
+  background-image: url(../assets/img/Rectangle.jpg);
   background-repeat: no-repeat;
   background-position: calc(50% + 360px) 15px;
 }
@@ -329,7 +329,7 @@ h3{
 /*video_journey start*/
 .frame{
   margin-top: 15px;
-  background: url(/assets/img/frame.jpg) no-repeat;
+  background: url(../assets/img/frame.jpg) no-repeat;
   height: 714px;
 }
 .butt_play{
@@ -337,7 +337,7 @@ h3{
   margin-left: 610px;
 }
 .pl{
-  background-image: url(/assets/img/pl.png);
+  background-image: url(../assets/img/pl.png);
   background-repeat: no-repeat;
   background-position: calc(60%);
 }
@@ -349,13 +349,13 @@ h3{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-image:url(/assets/img/panel.jpg);
+  background-image:url(../assets/img/panel.jpg);
   height: 11.9%;
   margin-top: 204px;
   gap: 2.5rem;
 }
 .left{
-  background: url(/assets/svg/left.svg) no-repeat;
+  background: url(../assets/svg/left.svg) no-repeat;
   border: none;
   outline: none;
   width: 27px;
@@ -363,7 +363,7 @@ h3{
   margin-left: 41px;
 }
 .play{
-  background: url(/assets/svg/play.svg) no-repeat;
+  background: url(../assets/svg/play.svg) no-repeat;
   border: none;
   outline: none;
   width: 23px;
@@ -371,7 +371,7 @@ h3{
 
 }
 .right{
-  background: url(/assets/svg/right.svg) no-repeat;
+  background: url(../assets/svg/right.svg) no-repeat;
   border: none;
   outline: none;
   width: 27px;
@@ -404,7 +404,7 @@ h3{
 .sound{
   height: 30px;
   width: 38px;
-  background: url(/assets/svg/sound.svg) no-repeat;
+  background: url(../assets/svg/sound.svg) no-repeat;
   border: none;
   outline: none;
   margin-left: 5px;
@@ -416,7 +416,7 @@ h3{
 .expansion{
   width: 37px;
   height: 37px;
-  background: url(/assets/svg/expansion.svg) no-repeat;
+  background: url(../assets/svg/expansion.svg) no-repeat;
   border: none;
   outline: none;
   margin-left: 4px;
@@ -535,11 +535,11 @@ h3{
 	height: 17px;
   padding-left: 24px;
 	bottom: 9px;
-	background: url(/assets/img/Ellipse_1.png) 0 0 no-repeat;
+	background: url(../assets/img/Ellipse_1.png) 0 0 no-repeat;
 }
 /* Checked */
 .form_radio input[type=radio]:checked + label:before {
-	background: url(/assets/img/Group.png) 0 0 no-repeat;
+	background: url(../assets/img/Group.png) 0 0 no-repeat;
 }
 /* Hover */
 .form_radio label:hover:before {
@@ -610,7 +610,7 @@ h3{
   color: #FFFFFF;
 }
 .button_1{
-  background: url(/assets/img/–.png) no-repeat;
+  background: url(../assets/img/–.png) no-repeat;
   width: 18px;
   padding-top: 11px;
   margin-left: 11px;
@@ -618,7 +618,7 @@ h3{
   text-decoration: none;
 }
 .button_2{
-  background: url(/assets/img/+.png) no-repeat;
+  background: url(../assets/img/+.png) no-repeat;
   width: 18px;
   padding-top: 17px;
   border: none;
@@ -779,27 +779,27 @@ h3{
 .youtube{
   width: 48px;
   height: 48px;
-  background: url(/assets/img/Youtube.png);
+  background: url(../assets/img/Youtube.png);
 }
 .insta{
   width: 48px;
   height: 48px;
-  background: url(/assets/img/Instagram.png);
+  background: url(../assets/img/Instagram.png);
 }
 .f_b{
   width: 48px;
   height: 48px;
-  background: url(/assets/img/Facebook.png);
+  background: url(../assets/img/Facebook.png);
 }
 .tw{
   width: 48px;
   height: 48px;
-  background: url(/assets/img/Twitter.png);
+  background: url(../assets/img/Twitter.png);
 }
 .pinterest{
   width: 48px;
   height: 48px;
-  background: url(/assets/img/Pinterest.png);
+  background: url(../assets/img/Pinterest.png);
 }
 .youtube:hover, .insta:hover, .f_b:hover, .tw:hover,
 .pinterest:hover{
